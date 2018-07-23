@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-//利用公有函数访问私有成员
+//利用公有函数给私有成员变量赋值
 class Test1
 {
 private:
