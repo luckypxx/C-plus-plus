@@ -1,17 +1,17 @@
-﻿生成启动时间为 2018/8/22 17:37:22。
-     1>项目“D:\practice\C++\文件压缩\文件压缩\文件压缩.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 2018/9/10 18:55:29。
+     1>项目“D:\MyGithub\C-plus-plus\文件压缩\文件压缩\文件压缩.vcxproj”在节点 2 上(Rebuild 个目标)。
      1>ClCompile:
          D:\软件\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
          test.cpp
-     1>d:\practice\c++\文件压缩\文件压缩\filecompress.h(104): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
-                 d:\practice\c++\文件压缩\文件压缩\filecompress.h(58): 编译类 模板 成员函数“void FileCompress<CharInfo>::CompressFile(const std::string &)”时
-                 d:\practice\c++\文件压缩\文件压缩\test.cpp(7): 参见对正在编译的函数 模板 实例化“void FileCompress<CharInfo>::CompressFile(const std::string &)”的引用
-                 d:\practice\c++\文件压缩\文件压缩\test.cpp(6): 参见对正在编译的类 模板 实例化“FileCompress<CharInfo>”的引用
+     1>d:\mygithub\c-plus-plus\文件压缩\文件压缩\filecompress.h(104): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+                 d:\mygithub\c-plus-plus\文件压缩\文件压缩\filecompress.h(58): 编译类 模板 成员函数“void FileCompress<CharInfo>::CompressFile(const std::string &)”时
+                 d:\mygithub\c-plus-plus\文件压缩\文件压缩\test.cpp(7): 参见对正在编译的函数 模板 实例化“void FileCompress<CharInfo>::CompressFile(const std::string &)”的引用
+                 d:\mygithub\c-plus-plus\文件压缩\文件压缩\test.cpp(6): 参见对正在编译的类 模板 实例化“FileCompress<CharInfo>”的引用
        Link:
-         D:\软件\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\practice\C++\文件压缩\Debug\文件压缩.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\practice\C++\文件压缩\Debug\文件压缩.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\practice\C++\文件压缩\Debug\文件压缩.lib" /MACHINE:X86 Debug\test.obj
-         文件压缩.vcxproj -> D:\practice\C++\文件压缩\Debug\文件压缩.exe
-     1>已完成生成项目“D:\practice\C++\文件压缩\文件压缩\文件压缩.vcxproj”(Build 个目标)的操作。
+         D:\软件\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\MyGithub\C-plus-plus\文件压缩\Debug\文件压缩.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\MyGithub\C-plus-plus\文件压缩\Debug\文件压缩.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\MyGithub\C-plus-plus\文件压缩\Debug\文件压缩.lib" /MACHINE:X86 Debug\test.obj
+         文件压缩.vcxproj -> D:\MyGithub\C-plus-plus\文件压缩\Debug\文件压缩.exe
+     1>已完成生成项目“D:\MyGithub\C-plus-plus\文件压缩\文件压缩\文件压缩.vcxproj”(Rebuild 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.94
+已用时间 00:00:01.26

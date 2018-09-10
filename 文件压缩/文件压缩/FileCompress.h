@@ -159,7 +159,7 @@ public:
 				break;
 		}
 
-		if (count < 8)
+		if (count > 0 && count < 8)//若最后一个字节存满，则count=0.则需考虑count > 0 的条件
 			pWriteBuff[flag++] = (ch <<= (8 - count));
 
 		fwrite(pWriteBuff, 1, flag, pOut);
